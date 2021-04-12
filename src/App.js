@@ -1,15 +1,21 @@
 import React from 'react';
 import Header from './component/Header';
+import Sidebar from './component/Sidebar';
+import RecommendedVideos from './component/RecommendedVideos';
 import './App.css';
 
 function App() {
   return (
     <div className="app">
       <Header/>
-      {/*Header*/}
-       {/*sidebar*/}
-        {/*recommended*/}
-    </div>
+      <div className="app_page">
+        <Sidebar/>
+        <RecommendedVideos/>
+      
+
+      </div>
+
+          </div>
   ); 
 }
 
